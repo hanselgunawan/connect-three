@@ -32,26 +32,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button4"
+        <ImageButton
+            android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/red" />
 
-        <Button
-            android:id="@+id/button5"
+        <ImageButton
+            android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/red" />
 
-        <Button
-            android:id="@+id/button6"
+        <ImageButton
+            android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/red" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,25 +76,25 @@
         app:layout_constraintVertical_bias="1.0">
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/imageButton0"
             android:layout_width="wrap_content"
-            android:scaleType="fit"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="null"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/red" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="null"
+            android:scaleType="fitCenter"
             app:srcCompat="@drawable/red" />
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="null"
-            app:srcCompat="@drawable/red" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -112,25 +118,31 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
         app:layout_constraintVertical_bias="0.269">
 
-        <Button
-            android:id="@+id/button7"
+        <ImageButton
+            android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/red" />
 
-        <Button
-            android:id="@+id/button8"
+        <ImageButton
+            android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/red" />
 
-        <Button
-            android:id="@+id/button9"
+        <ImageButton
+            android:id="@+id/imageButton8"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="null"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/red" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

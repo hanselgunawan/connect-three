@@ -14,13 +14,18 @@ public class MainActivity extends AppCompatActivity {
     private int[][] board = new int[3][3];
 
     public void putRedToken(ImageButton imageButton) {
+        imageButton.setTranslationY(-1000f);
         imageButton.setImageDrawable(getResources().getDrawable(R.drawable.red));
         imageButton.setAlpha(1f);
+        imageButton.animate().translationYBy(1000f).setDuration(300);
     }
 
     public void putYellowToken(ImageButton imageButton) {
+        imageButton.setTranslationY(-1000f);
         imageButton.setImageDrawable(getResources().getDrawable(R.drawable.yellow));
         imageButton.setAlpha(1f);
+        imageButton.setAlpha(1f);
+        imageButton.animate().translationYBy(1000f).setDuration(300);
     }
 
     public int getXCoord(int imgBtnId) {
@@ -94,9 +99,8 @@ public class MainActivity extends AppCompatActivity {
         int x_coord;
         int y_coord;
         ImageButton imageButton = (ImageButton) view;
-        String resEntryName = imageButton.getResources().getResourceEntryName(imageButton.getId());
 
-        imgBtnId = Integer.parseInt(resEntryName.substring(resEntryName.length() - 1));
+        imgBtnId = Integer.parseInt(imageButton.getTag().toString());
 
         x_coord = getXCoord(imgBtnId);
         y_coord = getYCoord(imgBtnId);

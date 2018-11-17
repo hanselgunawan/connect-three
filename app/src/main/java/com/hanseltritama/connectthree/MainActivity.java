@@ -70,7 +70,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean checkWin(int[][] board, int x_coord, int y_coord) {
-        return (checkCol(board, x_coord) || checkRow(board, y_coord) || checkDiagonalLeft(board, x_coord, y_coord) || checkDiagonalRight(board, x_coord, y_coord));
+        return (checkCol(board, x_coord) ||
+                checkRow(board, y_coord) ||
+                checkDiagonalLeft(board, x_coord, y_coord) ||
+                checkDiagonalRight(board, x_coord, y_coord));
     }
 
     public void showAlertDialog(int player, int turn) {

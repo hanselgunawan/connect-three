@@ -37,7 +37,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitStart"
             app:srcCompat="@drawable/red" />
 
@@ -46,7 +48,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/red" />
 
@@ -55,7 +59,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitEnd"
             app:srcCompat="@drawable/red" />
     </LinearLayout>
@@ -80,7 +86,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitStart"
             app:srcCompat="@drawable/red" />
 
@@ -89,7 +97,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/red" />
 
@@ -98,7 +108,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitEnd"
             app:srcCompat="@drawable/red" />
     </LinearLayout>
@@ -123,7 +135,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitStart"
             app:srcCompat="@drawable/red" />
 
@@ -132,7 +146,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/red" />
 
@@ -141,7 +157,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitEnd"
             app:srcCompat="@drawable/red" />
     </LinearLayout>

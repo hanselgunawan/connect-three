@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void showAlertDialog(int player, int turn) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.Theme_AppCompat_Dialog_Alert);
-        builder.setTitle(turn < 9 ? "Congratulations!" : "Uh-Oh!")
-               .setMessage(turn < 9 ? "Player " + String.valueOf(player) + " Wins!" : "It's a tie game!")
+        builder.setTitle(turn < 9 ? R.string.win_title : R.string.tie_title)
+               .setMessage(turn < 9 ? String.format(getResources().getString(R.string.win_message), player) : getString(R.string.tie_message))
                .setPositiveButton(R.string.try_again, new DialogInterface.OnClickListener() {
                    @Override
                    public void onClick(DialogInterface dialogInterface, int i) {
@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(turn >= 4 && checkWin(board, x_coord, y_coord)) {
             showAlertDialog(player, turn);
+            return;
         }
 
         turn++;

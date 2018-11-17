@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">connectThree</string>
+    <string name="app_name">Tic-Tac-Toe</string>
     <string name="try_again">Try Again</string>
+    <string name="win_title">Congratulations!</string>
+    <string name="tie_title">Uh-Oh!</string>
+    <string name="win_message">Player %1$d Wins!</string>
+    <string name="tie_message">It\'s a tie game!</string>
 </resources>

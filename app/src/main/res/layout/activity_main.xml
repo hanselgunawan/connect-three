@@ -110,9 +110,9 @@
             android:layout_weight="1"
             android:alpha="0"
             android:background="@null"
+            android:onClick="onBoardClick"
             android:scaleType="fitEnd"
-            app:srcCompat="@drawable/red"
-            android:onClick="onBoardClick" />
+            app:srcCompat="@drawable/red" />
     </LinearLayout>
 
     <LinearLayout
